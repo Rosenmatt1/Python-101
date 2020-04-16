@@ -14,5 +14,15 @@ weight = input('What is your weight: ')
 converted = weight * .45
 print(converted)
 
+message = ''' 
+This is a mutli line string
+
+From John
+'''
+print(message)
+
+
+
+
 
 
