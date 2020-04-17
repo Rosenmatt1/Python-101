@@ -37,8 +37,9 @@ course = "This is the Pourse"
 # print(len(course))
 # print(course.upper())
 # print(course.find('P'))
-print(course.replace('P', 'C'))
-print(course.replace('P', 'Best C'))
+# print(course.replace('P', 'C'))
+# print(course.replace('P', 'Best C'))
+print('Pourse' in course)
 
 
 
