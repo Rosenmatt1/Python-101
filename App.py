@@ -22,7 +22,20 @@ is_published = False
 
 course = 'Python for Beginners'
 # This returns 0,1 and 2 index
-print(course[0:3])
+# print(course[0:3])
+# print(course[1:-1])
+
+# string formatting
+first = 'John'
+last =  'Smith'
+message = first + last + ' is a coder'
+message = first +  ' [' + last + '] is a coder'
+# msg = f'{first} [{last}] is a coder'
+# print(message)
+
+course = "This is the Course"
+# print(len(course))
+print(course.upper())
 
 
 
