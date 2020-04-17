@@ -10,16 +10,19 @@ is_published = False
 # # print(age)
 # print(type(birth_year))
 
-weight = input('What is your weight: ')
-converted = weight * .45
-print(converted)
+# weight = input('What is your weight: ')
+# converted = weight * .45
+# print(converted)
 
-message = ''' 
-This is a mutli line string
+# message = ''' 
+# This is a mutli line string
 
-From John
-'''
-print(message)
+# From John
+# '''
+
+course = 'Python for Beginners'
+# This returns 0,1 and 2 index
+print(course[0:3])
 
 
 
