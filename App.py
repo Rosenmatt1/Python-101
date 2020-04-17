@@ -33,9 +33,12 @@ message = first +  ' [' + last + '] is a coder'
 # msg = f'{first} [{last}] is a coder'
 # print(message)
 
-course = "This is the Course"
+course = "This is the Pourse"
 # print(len(course))
-print(course.upper())
+# print(course.upper())
+# print(course.find('P'))
+print(course.replace('P', 'C'))
+print(course.replace('P', 'Best C'))
 
 
 
