@@ -1,3 +1,6 @@
+import math
+# Google search python 3 math module
+
 price = 10
 
 # variable must be lower case - booleans must be capitalized
@@ -40,6 +43,21 @@ course = "This is the Pourse"
 # print(course.replace('P', 'C'))
 # print(course.replace('P', 'Best C'))
 print('Pourse' in course)
+
+
+# Returns division without decimal 
+print(10 // 3)
+# modulas operator returns remainder 
+print(10 % 3)
+# 10 to the power of 3
+print(10 ** 3)
+# Rounds Up
+x = 2.9
+print(round(x))
+
+math.
+
+
 
 
 
