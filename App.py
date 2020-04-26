@@ -57,6 +57,13 @@ print(round(x))
 
 numbers5 = [7, 16, 3, 1, 11]
 numbers5.append(20)
+
+numbers5.insert(1,33)
+print("index", numbers5.index(3))
+
+# numbersNew = numbers5.copy()
+# print(numbersNew)
+
 print(numbers5)
 
 
