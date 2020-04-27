@@ -25,3 +25,10 @@ class Person:
 user1 = Person("John")
 print(user1.name)
 user1.talk()
+
+
+class Human(Person):
+  pass
+
+human = Human("Jenny")
+print(human.talk())
