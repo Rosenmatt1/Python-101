@@ -1,3 +1,7 @@
+import functions
+import utils
+from functions import greet_user
+
 import math
 # Google search python 3 math module
 
@@ -65,6 +69,12 @@ print("index", numbers5.index(3))
 # print(numbersNew)
 
 print(numbers5)
+
+greet_user("John", 18)
+functions.greet_user("Sally", 20)
+
+max = utils.find_max([7,10,11,2,9,6])
+print(max)
 
 
 
