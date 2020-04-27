@@ -26,7 +26,6 @@
 #   i = i + 1
 # print("Done")
 
-
 secret_number = 7
 count = 0
 max_count = 3
