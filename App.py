@@ -1,6 +1,11 @@
 import functions
 import utils
 from functions import greet_user
+# import ecommerce.shipping
+# from ecommerce.shipping import calc_shipping
+from ecommerce import shipping
+
+shipping.calc_shipping()
 
 import math
 # Google search python 3 math module
@@ -9,8 +14,6 @@ price = 10
 
 # variable must be lower case - booleans must be capitalized
 is_published = False
-
-
 
 # birth_year = input('Birth year: ')
 # age = 2019 - birth_year
